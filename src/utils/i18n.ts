@@ -1,0 +1,58 @@
+import { Language } from '../types';
+
+export const translations = {
+  tr: {
+    appName: 'Not Defteri',
+    allNotes: 'Tüm Notlar',
+    categories: 'Kategoriler',
+    searchPlaceholder: 'Notlarda ara...',
+    newNote: 'Yeni Not',
+    newCategory: 'Yeni Kategori',
+    categoryNamePlaceholder: 'Kategori adı...',
+    add: 'Ekle',
+    cancel: 'İptal',
+    deleteCategoryConfirm: 'Bu kategoriyi silmek istediğinize emin misiniz?',
+    deleteNoteConfirm: 'Bu notu silmek istediğinize emin misiniz?',
+    noNotes: 'Not bulunamadı',
+    noNoteSelected: 'Not seçilmedi',
+    selectNotePrompt: 'Görüntülemek veya düzenlemek için soldan bir not seçin.',
+    titlePlaceholder: 'Not Başlığı',
+    contentPlaceholder: 'Notunuzu buraya yazın...',
+    noCategory: 'Kategori Yok',
+    lightTheme: 'Açık Tema',
+    darkTheme: 'Koyu Tema',
+    switchLanguage: 'Dil Değiştir',
+    notesCount: 'not',
+    untitled: 'Başlıksız',
+    noContent: 'İçerik yok...',
+  },
+  en: {
+    appName: 'Notepad',
+    allNotes: 'All Notes',
+    categories: 'Categories',
+    searchPlaceholder: 'Search notes...',
+    newNote: 'New Note',
+    newCategory: 'New Category',
+    categoryNamePlaceholder: 'Category name...',
+    add: 'Add',
+    cancel: 'Cancel',
+    deleteCategoryConfirm: 'Are you sure you want to delete this category?',
+    deleteNoteConfirm: 'Are you sure you want to delete this note?',
+    noNotes: 'No notes found',
+    noNoteSelected: 'No note selected',
+    selectNotePrompt: 'Select a note from the left to view or edit.',
+    titlePlaceholder: 'Note Title',
+    contentPlaceholder: 'Type your note here...',
+    noCategory: 'No Category',
+    lightTheme: 'Light Theme',
+    darkTheme: 'Dark Theme',
+    switchLanguage: 'Switch Language',
+    notesCount: 'notes',
+    untitled: 'Untitled',
+    noContent: 'No content...',
+  },
+};
+
+export const useTranslation = (lang: Language) => {
+  return translations[lang];
+};
