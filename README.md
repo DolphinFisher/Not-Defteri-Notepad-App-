@@ -55,7 +55,3 @@ Projeyi yerel ortamınızda çalıştırmak için:
 3.  Değişikliklerinizi commit edin (`git commit -m 'Yeni özellik eklendi'`).
 4.  Branch'inizi pushlayın (`git push origin feature/yeni-ozellik`).
 5.  Bir Pull Request oluşturun.
-
-## 📄 Lisans
-
-Bu proje [MIT Lisansı](LICENSE) altında lisanslanmıştır.
