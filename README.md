@@ -33,11 +33,11 @@ Projeyi yerel ortamınızda çalıştırmak için:
 
 1.  Depoyu klonlayın:
     ```bash
-    git clone https://github.com/KULLANICI_ADINIZ/notepad-app.git
+    git clone https://github.com/DolphinFisher/Not-Defteri-Notepad-App-.git
     ```
 2.  Proje dizinine gidin:
     ```bash
-    cd notepad-app
+    cd Not-Defteri-Notepad-App-
     ```
 3.  Bağımlılıkları yükleyin:
     ```bash
